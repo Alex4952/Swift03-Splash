@@ -27,5 +27,4 @@ class NewViewController : UIViewController {
 		
 	}
 	
-	
 }
