@@ -15,12 +15,12 @@ class NewViewController : UIViewController {
 	@IBOutlet var uiTitle03: UILabel!
 	
 	@IBAction func onClick(sender: AnyObject) {
-		
+		let btns = sender as! UIButton
+		btns.setTitle("OK", forState: UIControlState.Normal)
 	}
 	
 	@IBAction func onClick02(sender: UIButton) {
 		sender.setTitle("OK", forState: UIControlState.Normal)
-		
 	}
 	
 	@IBAction func onClick03(sender: AnyObject) {

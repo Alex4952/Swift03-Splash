@@ -74,6 +74,27 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9VW-sy-pkA">
+                                <rect key="frame" x="147" y="282" width="80" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onClick:" destination="jms-yu-Rfd" eventType="touchUpInside" id="Rxa-bj-bkJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOT-7z-Ijh">
+                                <rect key="frame" x="72" y="282" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onClick:" destination="jms-yu-Rfd" eventType="touchUpInside" id="3GN-YG-OQp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yx-ez-89z">
+                                <rect key="frame" x="252" y="282" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onClick:" destination="jms-yu-Rfd" eventType="touchUpInside" id="W1D-OW-wJB"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmC-5s-aTe">
                                 <rect key="frame" x="147" y="236" width="80" height="30"/>
                                 <state key="normal" title="Button"/>
